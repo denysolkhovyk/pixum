@@ -1,0 +1,164 @@
+
+.columns:last-child{
+  float: left !important;
+}
+.icons_status{
+  float: right;
+}
+.grid_image{
+  overflow: hidden;
+  cursor: pointer;
+}
+.overlay-slide-in {
+  transition: all .3s linear;
+}
+.overlay-slide-in:hover {
+  -webkit-transform: scale(1.2);
+  -khtml-transform: scale(1.2);
+  -moz-transform: scale(1.2);
+  -ms-transform: scale(1.2);
+  -o-transform: scale(1.2);
+  transform: scale(1.2);
+}
+
+/*small*/
+@media only screen {
+  .panel_album{
+    position: absolute;
+    right: 0;
+    top: 0;
+    margin: 0 -5px 0px 0px;
+    border: none;
+    background: none;
+  }
+  .album_block{
+    margin-bottom: 0;
+  }
+ }
+
+/*medium*/
+@media only screen and (min-width: 40.0625em) {
+  .panel_album{
+    position: absolute;
+    color: #fff;
+    background-color: rgba(51, 51, 51, 0.8);
+    border: none;
+    top: inherit;
+    bottom: 0;
+    left: 15px;
+    right: 15px;
+    margin: 0;
+    padding: 10px;
+    width: auto;
+  }
+  .panel_album h5, .panel_album h6 {
+    color: #fff;
+  }
+  .album_block{
+    margin-bottom: 20px;
+  }
+}
+
+/*large*/
+@media only screen and (min-width: 64.0625em) {
+  .panel_album{
+    position: absolute;
+    color: #fff;
+    background-color: rgba(51, 51, 51, 0.8);
+    border: none;
+    top: inherit;
+    bottom: 0;
+    left: 15px;
+    right: 15px;
+    margin: 0;
+    padding: 10px;
+    width: auto;
+  }
+  .panel_album h5, .panel_album h6 {
+    color: #fff;
+  }
+  .album_block{
+    margin-bottom: 20px;
+  }
+} 
+
+
+
+.uploadThumbnail {
+    overflow: hidden;
+    position: absolute;
+    z-index: 1;
+    height: 200px;
+    width: 200px;
+    margin: 2px 0 14px 18px;
+    background-color: white;
+    -webkit-box-shadow: 0 1px 5px rgba(0, 0, 0, 0.2);
+    -moz-box-shadow: 0 1px 5px rgba(0, 0, 0, 0.2);
+    box-shadow: 0 2px 3px rgba(0, 0, 0, 0.3);
+    -webkit-border-radius: 3px;
+    -moz-border-radius: 3px;
+    -ms-border-radius: 3px;
+    -o-border-radius: 3px;
+    border-radius: 3px;
+    border: 1px solid #DDD;
+}
+.uploadThumbnail button{
+    display: none;
+}
+
+.uploadThumbnail .fontIcon-upload{
+    font-size: 44px;
+    height: 44px;
+    line-height: 44px;
+    position: absolute;
+    top: 25px;
+    color: #9a9a9a;
+    left: 1px;
+    right: 3px;
+    display: block;
+    text-align: center;
+}
+
+.uploadThumbnail .fontIcon-upload:hover {
+    color: #00a9ff;
+}
+
+.clearing-assembled .clearing-container .carousel > ul li:first-child{
+    display: none;
+}
+
+.test{
+    position: relative;
+}
+
+.block{
+    padding-left: 200px;
+    min-height: 200px;
+    width: 0;
+    margin: 0 auto 18px auto;
+    background: #fff;
+    position: relative;
+    -webkit-border-radius: 3px;
+    -moz-border-radius: 3px;
+    -ms-border-radius: 3px;
+    -o-border-radius: 3px;
+    border-radius: 3px;
+    -webkit-box-shadow: 0 2px 3px rgba(0, 0, 0, 0.3);
+    -moz-box-shadow: 0 2px 3px rgba(0, 0, 0, 0.3);
+    box-shadow: 0 2px 3px rgba(0, 0, 0, 0.3);
+}
+
+.test_img{
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    -webkit-transform: translateY(-50%) translateX(-50%);
+    -moz-transform: translateY(-50%) translateX(-50%);
+    -ms-transform: translateY(-50%) translateX(-50%);
+    -o-transform: translateY(-50%) translateX(-50%);
+    transform: translateY(-50%) translateX(-50%);
+    max-height: 100%;
+    max-width: 100%; 
+}
+
+   

@@ -1,0 +1,14 @@
+@import "app.css";
+@import "main.css";
+@import "pixum-icons.css";
+
+@font-face {
+  font-family:"pixum-icons";
+  src:url("fonts/pixum-icons-9c5c6f9716819494134abbb5737f7ab4.woff") format("woff"),
+    url("fonts/pixum-icons-9c5c6f9716819494134abbb5737f7ab4.ttf") format("truetype"),
+    url("fonts/pixum-icons-9c5c6f9716819494134abbb5737f7ab4.svg?#pixum-icons") format("svg");
+  font-weight:normal;
+  font-style:normal;
+}
+
+
