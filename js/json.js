@@ -1,4 +1,4 @@
-APP.data = [
+var APP.data = [
  	{
  		"albums_name": "Abstract", 
  		"albums_id": 1, 
